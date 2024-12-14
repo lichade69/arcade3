@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Richard Yang">
+    <title>Arcade</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Arcade</h1>
+    <script src="js/script.js"></script>
+    <button onclick="startGameArcade()">
+        Start Game Arcade
+    </button>
+    <div id="gamesList" style="display: none">
+        <button onclick="guessingGame()">
+            Guessing Game
+        </button>
+        <button onclick="magic8ball()">
+            Magic 8 Ball
+        </button>
+        <button onclick="bnh()">
+            Bear, Ninja, Hunter
+        </button>
+    </div>
+    <div id="exit" style="display: none;">
+        <button onclick="window.location.reload()">
+            Exit
+        </button>
+    </div>
+    <div id="stats">
+    </div>
+    <div id="medal">
+    </div>
+</body>
+
+</html>

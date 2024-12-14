@@ -1,0 +1,43 @@
+body {
+    padding: 5vh 5vw;
+    margin: 0;
+    width: 90vw;
+    height: 90vw;
+    background: repeating-linear-gradient(
+        45deg,
+        #add8e6,
+        #add8e6 10px,
+        #90ee90 10px,
+        #90ee90 20px
+    );
+    font-family: cursive;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: large
+}
+
+#stats, #medal {
+    margin: auto;
+    width: fit-content;
+}
+
+#stats h2, #medal h2 {
+    display: inline-block;
+}
+
+#stats table {
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0 10px;
+}
